@@ -1,36 +1,154 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LinkedIn Style Home Page — Next.js + Material UI
 
-## Getting Started
+This project is a responsive LinkedIn-style home page built using **Next.js** and **Material UI (MUI)** with the default theme from mui.com.
 
-First, run the development server:
+The primary goal of this project is to demonstrate layout structure, responsiveness, and correct usage of Material UI components without overriding default styles.
+
+---
+
+## 🚀 Tech Stack
+
+- Next.js (App Router)
+- React
+- TypeScript
+- Material UI (MUI)
+- Node.js
+
+---
+
+## ✨ Features
+
+- Responsive 3-column layout:
+  - Left Sidebar
+  - Center Feed
+  - Right Sidebar
+
+- Mobile-friendly responsive design
+- Navbar with mobile drawer menu
+- Search bar (Desktop + Mobile)
+- Feed posts with dummy/static data
+- Default Material UI theme usage (no custom styling overrides)
+- Clean and reusable component structure
+- Coming Soon pages for incomplete modules
+
+---
+
+## 📱 Responsive Behavior
+
+| Device  | Layout    |
+| ------- | --------- |
+| Desktop | 3 Columns |
+| Tablet  | 2 Columns |
+| Mobile  | 1 Column  |
+
+---
+
+## ⚙️ System Requirements
+
+Make sure the following are installed:
+
+- **Node.js:** v20.17.0 or higher
+- npm / yarn / pnpm package manager
+
+Check Node version:
+
+```bash
+node -v
+```
+
+---
+
+## 🛠️ Installation & Running the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+### 2. Navigate to Project Folder
+
+```bash
+cd project-folder-name
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open in Browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+  app/
+  components/
+    layout/
+    feed/
+    sidebar/
+    profile/
+  theme/
+public/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Objective of the Task
 
-## Deploy on Vercel
+This project was created as part of a screening task to demonstrate:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Responsive layout implementation
+- Proper use of Material UI components
+- Clean and structured frontend architecture
+- Next.js fundamentals and routing
+- Reusable component design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👩‍💻 Author
+
+**Yogeshwari Singh**
+Frontend Developer
+
+### Skills
+
+- React.js
+- Next.js
+- TypeScript
+- Material UI
+- Tailwind CSS
+- JavaScript
+
+---
+
+## 📌 Notes
+
+- This project uses only default Material UI components and theme.
+- No backend API integration is included.
+- Dummy/static data is used for UI demonstration purposes.
+
+---
+
+## 📄 License
+
+This project is created for assessment and demonstration purposes.
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
