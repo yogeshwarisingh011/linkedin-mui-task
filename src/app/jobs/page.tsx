@@ -3,14 +3,14 @@ import Grid from "@mui/material/Grid";
 import CompanyCard from "./CompanyCard";
 
 const companies = [
-  { name: "Facebook Inc.", logo: "/company-logo.png" },
-  { name: "Google Inc.", logo: "/company-logo.png" },
-  { name: "Pinterest", logo: "/company-logo.png" },
-  { name: "Microsoft Inc.", logo: "/company-logo.png" },
-  { name: "Line Inc.", logo: "/company-logo.png" },
-  { name: "LinkedIn", logo: "/company-logo.png" },
-  { name: "Apple Inc.", logo: "/company-logo.png" },
-  { name: "Samsung Inc.", logo: "/company-logo.png" },
+  { name: "Facebook Inc.", logo: "/images/company-logo.png" },
+  { name: "Google Inc.", logo: "/images/company-logo.png" },
+  { name: "Pinterest", logo: "/images/company-logo.png" },
+  { name: "Microsoft Inc.", logo: "/images/company-logo.png" },
+  { name: "Line Inc.", logo: "/images/company-logo.png" },
+  { name: "LinkedIn", logo: "/images/company-logo.png" },
+  { name: "Apple Inc.", logo: "/images/company-logo.png" },
+  { name: "Samsung Inc.", logo: "/images/company-logo.png" },
 ];
 
 export default function CompaniesPage() {

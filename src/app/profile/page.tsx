@@ -1,10 +1,11 @@
 import { Box, Container } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import Portfolio from "@/components/profiles/Portfolio";
-import ProfileSidebar from "@/components/profiles/ProfileSidebar";
-import ProfileInfoHeader from "@/components/profiles/ProfileInfoHeader";
+import Portfolio from "@/components/profilecomponent/Portfolio";
+
+import ProfileInfoHeader from "@/components/profilecomponent/ProfileInfoHeader";
 import PostCard from "@/components/feed/PostCard";
 import HiringPostCard from "@/components/feed/HiringPostCard";
+import ProfileSidebar from "@/components/profilecomponent/ProfileSidebar";
 
 export default function ProfilePage() {
   const hiringPosts = [
@@ -14,7 +15,7 @@ export default function ProfilePage() {
       time: "36m ago",
       description:
         "At SpaceX, we don't just dream about the future — we build it. We're looking for the boldest engineers, designers, coders, and thinkers to join our mission.",
-      image: "/hiring-img2.webp",
+      image: "/images/hiring-img2.webp",
     },
     {
       name: "Satya Nadella",
@@ -22,7 +23,7 @@ export default function ProfilePage() {
       time: "1h ago",
       description:
         "Microsoft is hiring passionate developers and designers to shape the future of AI and cloud computing. Join us and make an impact globally.",
-      image: "/hiring-img.webp",
+      image: "/images/hiring-img.webp",
     },
   ];
   return (

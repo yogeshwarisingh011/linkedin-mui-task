@@ -47,7 +47,10 @@ export default function ProfileSidebar() {
         />
 
         <Stack alignItems="center" sx={{ mt: -6 }}>
-          <Avatar src="/dummy-user.jpg" sx={{ width: 120, height: 120 }} />
+          <Avatar
+            src="/images/dummy-user.jpg"
+            sx={{ width: 120, height: 120 }}
+          />
         </Stack>
 
         <Stack direction="row" justifyContent="space-around" sx={{ py: 2 }}>

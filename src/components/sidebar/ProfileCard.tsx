@@ -33,7 +33,7 @@ export default function ProfileCard() {
         >
           <Stack direction="column" spacing={2} alignItems="start">
             <Avatar
-              src="/dummy-user.jpg"
+              src="/images/dummy-user.jpg"
               sx={{
                 width: 56,
                 height: 56,

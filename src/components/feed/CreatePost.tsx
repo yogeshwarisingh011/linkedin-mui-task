@@ -26,7 +26,7 @@ export default function CreatePost() {
       <CardContent>
         <Stack spacing={2}>
           <Stack direction="row" spacing={2} alignItems="center">
-            <Avatar src="/dummy-user.jpg" />
+            <Avatar src="/images/dummy-user.jpg" />
 
             <Box
               sx={{

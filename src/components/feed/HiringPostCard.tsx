@@ -49,7 +49,7 @@ export default function HiringPostCard({
       <CardContent sx={{ pb: 1 }}>
         <Stack direction="row" justifyContent="space-between">
           <Stack direction="row" spacing={1.5} alignItems="center">
-            <Avatar src="/dummy-user.jpg" />
+            <Avatar src="/images/dummy-user.jpg" />
 
             <Stack spacing={0.3}>
               <Typography sx={{ fontWeight: 600, fontSize: 16 }}>

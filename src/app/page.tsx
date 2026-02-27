@@ -1,4 +1,4 @@
-import Feed from "@/components/feed/Feed";
+import CenterFeed from "@/components/layout/CenterFeed";
 import LeftSidebar from "@/components/layout/LeftSidebar";
 import RightSidebar from "@/components/layout/RightSidebar";
 import { Container, Grid } from "@mui/material";
@@ -13,7 +13,7 @@ export default function Home() {
           </Grid>
 
           <Grid size={{ xs: 12, md: 5 }}>
-            <Feed />
+            <CenterFeed />
           </Grid>
 
           <Grid size={{ xs: 12, md: 3 }}>
