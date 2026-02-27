@@ -8,11 +8,16 @@ import {
 
 export default function PostCard() {
   return (
-    <Card>
+    <Card
+      sx={{
+        boxShadow: "0px 0px 0px 1px rgb(140 140 140 / 0.2)",
+        borderRadius: "12px",
+      }}
+    >
       <CardHeader
-        avatar={<Avatar>A</Avatar>}
-        title="John Doe"
-        subheader="Software Engineer"
+        avatar={<Avatar>Y</Avatar>}
+        title="Yogeshwari Singh"
+        subheader="Frontend Developer at XYZ Company"
       />
 
       <CardContent>

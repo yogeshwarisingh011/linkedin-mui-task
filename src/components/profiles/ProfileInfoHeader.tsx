@@ -6,7 +6,7 @@ export default function ProfileInfoHeader() {
   return (
     <Box>
       <Typography variant="h5" fontWeight={600}>
-        John Doe
+        Yogeshwari Singh
       </Typography>
 
       <Stack
@@ -17,7 +17,7 @@ export default function ProfileInfoHeader() {
         mt={1}
       >
         <Typography variant="body1" color="text.secondary">
-          Graphic Designer at Self Employed
+          Frontend Developer | Freelancer
         </Typography>
 
         <Stack direction="row" spacing={0.5}>

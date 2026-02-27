@@ -24,9 +24,18 @@ const users = [
 
 export default function Suggestions() {
   return (
-    <Card elevation={3}>
+    <Card
+      sx={{
+        boxShadow: "0px 0px 0px 1px rgb(140 140 140 / 0.2)",
+        borderRadius: "12px",
+      }}
+    >
       <CardHeader
-        title="Suggestions"
+        title="People you may know"
+        titleTypographyProps={{
+          fontSize: 16,
+          fontWeight: 600,
+        }}
         action={
           <IconButton>
             <MoreVertIcon />
@@ -55,8 +64,21 @@ export default function Suggestions() {
                 </Stack>
               </Stack>
 
-              <IconButton>
-                <AddIcon />
+              <IconButton
+                size="small"
+                sx={{
+                  border: "1px solid",
+                  borderColor: "primary.main",
+                  borderRadius: 5,
+                  color: "primary.main",
+                  p: "4px",
+                  "&:hover": {
+                    backgroundColor: "primary.main",
+                    color: "white",
+                  },
+                }}
+              >
+                <AddIcon fontSize="small" />
               </IconButton>
             </Stack>
           ))}

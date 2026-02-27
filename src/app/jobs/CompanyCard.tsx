@@ -16,7 +16,13 @@ type Props = {
 
 export default function CompanyCard({ name, logo }: Props) {
   return (
-    <Card>
+    <Card
+      sx={{
+        boxShadow: "0px 0px 0px 1px rgb(140 140 140 / 0.2)",
+        borderRadius: "12px",
+        border: "1px solid #fdf9f9",
+      }}
+    >
       <CardContent>
         <Stack spacing={2} alignItems="center">
           <Avatar src={logo} sx={{ width: 70, height: 70 }} />

@@ -1,48 +1,32 @@
 import { Box, Container } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import ProfileHeader from "@/components/profile/ProfileHeader";
-import ProfileSection from "@/components/profile/ProfileInfoHeader";
-import Portfolio from "@/components/profile/Portfolio";
-import ProfileSidebar from "@/components/profile/ProfileSidebar";
-import ProfileInfoHeader from "@/components/profile/ProfileInfoHeader";
+import Portfolio from "@/components/profiles/Portfolio";
+import ProfileSidebar from "@/components/profiles/ProfileSidebar";
+import ProfileInfoHeader from "@/components/profiles/ProfileInfoHeader";
 import PostCard from "@/components/feed/PostCard";
-import JobPostCard from "@/components/feed/JobPostCard";
+import HiringPostCard from "@/components/feed/HiringPostCard";
 
 export default function ProfilePage() {
-  const posts = [
+  const hiringPosts = [
     {
-      name: "John Doe",
-      role: "Epic Coder",
-      time: "3 min ago",
-      title: "Senior Wordpress Developer",
-      price: "$30 / hr",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      skills: ["HTML", "PHP", "CSS", "Javascript", "Wordpress"],
-    },
-    {
-      name: "Jessica William",
-      role: "UI Designer",
-      time: "10 min ago",
-      title: "Senior UI/UX Designer",
-      price: "$25 / hr",
+      name: "Elon Musk",
+      role: "CEO of SpaceX",
+      time: "36m ago",
       description:
-        "Aliquam luctus hendrerit metus, ut ullamcorper quam finibus.",
-      skills: ["Figma", "UX", "Research", "Prototyping"],
+        "At SpaceX, we don't just dream about the future — we build it. We're looking for the boldest engineers, designers, coders, and thinkers to join our mission.",
+      image: "/hiring-img2.webp",
     },
     {
-      name: "Bill Gates",
-      role: "Software Engineer",
-      time: "1 hr ago",
-      title: "Full Stack Developer",
-      price: "$40 / hr",
-      description: "Etiam id magna sit amet purus consequat tempor.",
-      skills: ["React", "Node", "MongoDB", "API"],
+      name: "Satya Nadella",
+      role: "CEO of Microsoft",
+      time: "1h ago",
+      description:
+        "Microsoft is hiring passionate developers and designers to shape the future of AI and cloud computing. Join us and make an impact globally.",
+      image: "/hiring-img.webp",
     },
   ];
   return (
     <>
-      <ProfileHeader />
-
       <Container maxWidth="lg" sx={{ mt: 3 }}>
         <Grid container spacing={2}>
           <Grid size={{ xs: 12, md: 3 }}>
@@ -58,9 +42,9 @@ export default function ProfilePage() {
                 <PostCard />
               </Grid>
               <Grid size={12}>
-                {posts.map((post, index) => (
+                {hiringPosts.map((post, index) => (
                   <Box key={index} mt={2}>
-                    <JobPostCard {...post} />
+                    <HiringPostCard {...post} />
                   </Box>
                 ))}
               </Grid>

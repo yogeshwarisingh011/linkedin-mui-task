@@ -20,9 +20,18 @@ const jobs = [
 
 export default function TopJobs() {
   return (
-    <Card elevation={3}>
+    <Card
+      sx={{
+        boxShadow: "0px 0px 0px 1px rgb(140 140 140 / 0.2)",
+        borderRadius: "12px",
+      }}
+    >
       <CardHeader
         title="Top Jobs"
+        titleTypographyProps={{
+          fontSize: 16,
+          fontWeight: 600,
+        }}
         action={
           <IconButton>
             <MoreVertIcon />
@@ -37,7 +46,9 @@ export default function TopJobs() {
           {jobs.map((job, index) => (
             <Stack key={index} spacing={0.5}>
               <Stack direction="row" justifyContent="space-between">
-                <Typography variant="subtitle2">{job}</Typography>
+                <Typography variant="subtitle2" fontWeight={600}>
+                  {job}
+                </Typography>
 
                 <Typography variant="subtitle2">$25/hr</Typography>
               </Stack>

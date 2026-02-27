@@ -1,7 +1,7 @@
 import { Box, Typography, Button, Stack } from "@mui/material";
 import Link from "next/link";
 
-export default function ComingSoon() {
+export default function Messages() {
   return (
     <Box
       sx={{
@@ -14,7 +14,7 @@ export default function ComingSoon() {
     >
       <Stack spacing={2} alignItems="center">
         <Typography variant="h3" fontWeight={700}>
-          Coming Soon 🚀
+          Message Page Coming Soon 🚀
         </Typography>
 
         <Typography color="text.secondary">
